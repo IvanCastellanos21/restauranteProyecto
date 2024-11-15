@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto restaurante</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poller+One&display=swap">      
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="wrap-header-hero">
+            <header class="main-header">
+              <div class="header-wrap">
+                <div class="wrap-logo-header">
+                  <a class="logo-header" href="/">
+                    Restaurante X
+                  </a>
+                </div>
+                <div class="wrap-nav-header">
+                  <nav class="nav-header">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                      <i class="toggle-menu">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDM4NCAzODQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTM2OCAxNTQuNjY3OTY5aC0zNTJjLTguODMyMDMxIDAtMTYtNy4xNjc5NjktMTYtMTZzNy4xNjc5NjktMTYgMTYtMTZoMzUyYzguODMyMDMxIDAgMTYgNy4xNjc5NjkgMTYgMTZzLTcuMTY3OTY5IDE2LTE2IDE2em0wIDAiIGZpbGw9IiMwMDAwMDAiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiPjwvcGF0aD48cGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGQ9Im0zNjggMzJoLTM1MmMtOC44MzIwMzEgMC0xNi03LjE2Nzk2OS0xNi0xNnM3LjE2Nzk2OS0xNiAxNi0xNmgzNTJjOC44MzIwMzEgMCAxNiA3LjE2Nzk2OSAxNiAxNnMtNy4xNjc5NjkgMTYtMTYgMTZ6bTAgMCIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTM2OCAyNzcuMzMyMDMxaC0zNTJjLTguODMyMDMxIDAtMTYtNy4xNjc5NjktMTYtMTZzNy4xNjc5NjktMTYgMTYtMTZoMzUyYzguODMyMDMxIDAgMTYgNy4xNjc5NjkgMTYgMTZzLTcuMTY3OTY5IDE2LTE2IDE2em0wIDAiIGZpbGw9IiMwMDAwMDAiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiPjwvcGF0aD48L2c+PC9zdmc+" />
+                      </i>
+                    </label>
+                    
+                    <!-- Menu del header -->
+                    <ul class="main-menu">
+                      <li class="menu-item"><a href="">Inicio</a></li>
+                      <li class="menu-item"><a href="#promos">Promociones</a></li>
+                      <li class="menu-item"><a href="#carta">Carta</a></li>
+                      <li class="menu-item"><a href="#galeria">Galería</a></li>
+                      <li id="nav-main-contact" class="menu-item"><a href="#contacto" style="color: black;">Contacto</a></li>
+                    </ul>
+            
+                  </nav>
+                </div>
+              </div>
+             </header>
+            
+              <main class="main-section">
+                  <!-- Promociones -->
+                  <section class="wrap section">
+                    <div class="wrap-title-section">
+                      <h2 id="promos" style="color: white;">Promociones del dia</h2>
+                    </div>
+                    <div class="column-4 columns">
+                      <div style="background:url(img/pizza-bg.jpg)center;background-size: cover;" class="tarjeta-rest">
+                        <div class="wrap-text_tarjeta-rest">
+                          <h3>Pizza Especial</h3>
+                          <p>Deliciosa pizza repleta de ingredientes comunes y exoticos a 20% menos.</p>
+                          <div class="cta-wrap_tarjeta-rest">
+                            <div class="precio_tarjeta-rest">
+                              <span>$80</span>
+                            </div>
+                            <div class="cta_tarjeta-rest">
+                              <a style="color: black;" href="">Pedir ahora</a>
+                            </div>
+                          </div>
+                        </div>  
+                      </div>
+                      <div style="background:url(img/hamburguesas-bg.jpg)center;background-size: cover;" class="tarjeta-rest">
+                        <div class="wrap-text_tarjeta-rest">
+                          <h3>Cheeseburger 2X</h3>
+                          <p>Dos cheeseburgers al precio de una</p>
+                          <div class="cta-wrap_tarjeta-rest">
+                            <div class="precio_tarjeta-rest">
+                              <span>$50</span>
+                            </div>
+                            <div class="cta_tarjeta-rest">
+                              <a style="color: black;" href="">Pedir ahora</a>
+                            </div>
+                          </div>
+                        </div>  
+                      </div>
+                      <div style="background:url(img/sushi-bg.jpg)center;background-size: cover;" class="tarjeta-rest">
+                        <div class="wrap-text_tarjeta-rest">
+                          <h3>Mega-plato de sushi</h3>
+                          <p>Plato de sushi con gran variedad a solo $120.</p>
+                          <div class="cta-wrap_tarjeta-rest">
+                            <div class="precio_tarjeta-rest">
+                              <span>$120</span>
+                            </div>
+                            <div class="cta_tarjeta-rest">
+                              <a style="color: black;" href="">Pedir ahora</a>
+                            </div>
+                          </div>
+                        </div>  
+                      </div>
+                      <div style="background:url(img/alitas-pollo-bg.jpg)center;background-size: cover;" class="tarjeta-rest">
+                        <div class="wrap-text_tarjeta-rest">
+                          <h3>Alitas buffalo</h3>
+                          <p>Orden de 30 piezas a solo $70.</p>
+                          <div class="cta-wrap_tarjeta-rest">
+                            <div class="precio_tarjeta-rest">
+                              <span>$70</span>
+                            </div>
+                            <div class="cta_tarjeta-rest">
+                              <a style="color: black;" href="">Pedir ahora</a>
+                            </div>
+                          </div>
+                        </div>  
+                      </div>
+                    </div>
+                  </section>
+            
+                  <!-- Menu Restaurante -->
+                  <section class="wrap section">
+                    <div class="wrap-title-section">
+                      <h2 id="carta" style="color: white;">Menús de Restaurante</h2>
+                    </div>
+                    <div class="column-4 columns">
+                      <div style="background: url(img/fondo-menu-restaurante.jpg) center;background-size: cover;" class="menu-restaurante">
+                        <h3>Platos principales</h3>
+                      <hr>
+                      <p>Hamburguesas</p>
+                      <p>Alitas</p>
+                      <p>Sushi</p>
+                      <p>Pizza</p>
+                      <p>Arrachera</p>
+                      <p>Orden de albondigas</p>
+                      <p>Lasagna</p>
+                      <p>Espagueti</p>
+                      <p>Enchiladas</p>
+                      <p>Costillas de cerdo</p>
+                      <br>
+                      </div>
+                      <div style="background: url(img/fondo-menu-restaurante.jpg) center;background-size: cover;" class="menu-restaurante">
+                      <h3>Bebidas</h3>
+                      <hr>
+                      <h4>Alcoholicas</h4>
+                      <p>Cerveza</p>
+                      <p>Vino</p>
+                      <p>Vodka</p>
+                      <p>Martini</p>
+                      <br>
+                      <h4>No alcoholicas</h4>
+                      <p>Jugo de fruta</p>
+                      <p>Agua</p>
+                      <p>Refresco</p>
+                      <p>Cafe</p>
+                      <br>
+                      </div>
+                      <div style="background: url(img/fondo-menu-restaurante.jpg) center;background-size: cover;" class="menu-restaurante">
+                        <h3>Postres</h3>
+                      <hr>
+                      <p>Flan</p>
+                      <p>Gelatina</p>
+                      <p>Pan dulce</p>
+                      <p>Timbal de frutas</p>
+                      <p>Pay de limón</p>
+                      <p>Rollos de canela</p>
+                      <p>Pastelillos</p>
+                      <p>Yogur con frutas</p>
+                      </div>
+                      <div style="background: url(img/fondo-menu-restaurante.jpg) center;background-size: cover;" class="menu-restaurante">
+                        <h3>Platos principales</h3>
+                      <hr>
+                      <h4>Paquete de alitas</h4>
+                      <p>500g. de alitas</p>
+                      <p>Salsa buffalo</p>
+                      <p>Salsa habanero</p>
+                      <p>Aderezo cheddar</p>
+                      <br>
+                      <h4>Paquete parrillada</h4>
+                      <p>Arrachera</p>
+                      <p>Whisky Jack Daniels</p>
+                      <p>4 refrescos 355ml.</p>
+                      <br>
+                      </div>
+                    </div>
+                  </section>
+            
+                  <!-- Galería de imágenes -->
+                  <section class="section">
+                      <div class="wrap-title-section">
+                        <h2 id="galeria" style="color: white;">Galería de imágenes</h2>
+                      </div>
+                      <div class="column-4 galeria-platos">
+                        <div class="imagen-galeria">
+                          <img src="img/foto galeria 1.jpg" alt="">
+                        </div>
+                        <div class="imagen-galeria">
+                          <img src="img/foto galeria 2.jpg" alt="">
+                        </div>
+                        <div class="imagen-galeria">
+                          <img src="img/foto galeria 3.jpg" alt="">
+                        </div>
+                        <div class="imagen-galeria">
+                          <img src="img/foto galeria 4.jpg" alt="">
+                        </div>
+                        <div class="imagen-galeria">
+                          <img src="img/foto galeria 5.jpg" alt="">
+                        </div>
+                        <div class="imagen-galeria">
+                          <img src="img/foto galeria 6.jpg" alt="">
+                        </div>
+                      </div>
+                  </section>
+              </main>
+
+              <!-- Footer de pagina -->
+              <footer class="footer">
+                <div class="wrap-footer">
+                  <div class="text-element-footer element-footer">
+                    <h3>Restaurante</h3>
+                    <p>Somos un restaurante que se compromete con satisfacer de manera total al cliente. Hemos estado en el negocio desde mas de 50 años, y queremos que el cliente tenga una excelente experiencia con nosotros.</p>
+                  </div>
+                  <div class="text-element-footer element-footer">
+                    <h5>Dirección</h5>
+                    <ul>
+                      <li>Calle, 82</li>
+                      <li>Población - 24436</li>
+                      <li>Movil: (+34) 888 60 93 03 (ficticio)</li>
+                    </ul>
+                  </div>
+                  <div class="text-element-footer element-footer">
+                    <h5>Más información</h5>
+                    <ul>
+                      <li><a href="/">Inicio</a></li>
+                      <li><a href="#promos">Promociones</a></li>
+                      <li><a href="#carta">Carta</a></li>
+                      <li><a href="#galeria">Galeria</a></li>
+                      <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                  </div>
+                  <div class="rrss-element-footer element-footer">
+                    <h5 id="contacto">Contacto</h5>
+                    <ul>
+                      <li>Hernández Castellanos Edgar Iván</li>
+                      <li>Programación Web 1</li>
+                      <li>FES Aragón</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer-creds">
+                  <div class="copy-creds">
+                    <p>©2024 · Todos los derechos reservados.</p>
+                  </div>
+                  <div class="legal-creds">
+                    <ul>
+                      <li><a href="">Política de Privacidad</a></li>
+                      <li><a href="">Política de Cookies</a></li>
+                      <li><a href="">Aviso Legal</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </footer>
+            
+            </body>
+            </html>
+    </body>
+</html>
